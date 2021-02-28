@@ -29,7 +29,7 @@ module.exports = function () {
   };
 
   onStdErrData = function (err) {
-    console.error(error);
+    console.error(err);
     // callback(new Error(err));
   };
 
